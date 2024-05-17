@@ -1,2 +1,4 @@
-package rw.gov.minecofine.IoC;public interface Sim {
+package rw.gov.minecofine.IoC;
+
+public interface Sim {
 }
