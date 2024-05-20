@@ -1,0 +1,48 @@
+<!-- src/main/resources/applicationContext.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- DataSource configuration -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/studentdb"/>
+        <property name="user" value="root"/>
+        <property name="password" value="password"/>
+        <property name="minPoolSize" value="5"/>
+        <property name="maxPoolSize" value="20"/>
+        <property name="checkoutTimeout" value="3000"/>
+        <property name="maxStatements" value="50"/>
+    </bean>
+
+    <!-- Hibernate SessionFactory configuration -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="rw.gov.minecofin.model"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!-- Transaction Manager -->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <!-- Enabling annotation-driven transaction management -->
+    <bean class="org.springframework.transaction.annotation.AnnotationTransactionAspect"/>
+
+    <!-- Service and Repository Beans -->
+    <bean id="studentRepository" class="rw.gov.minecofin.repository.StudentRepository">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="studentService" class="rw.gov.minecofin.service.StudentService">
+        <constructor-arg ref="studentRepository"/>
+    </bean>
+
+</beans>

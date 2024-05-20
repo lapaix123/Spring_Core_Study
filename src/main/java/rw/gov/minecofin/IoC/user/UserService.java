@@ -1,4 +1,4 @@
-package rw.gov.minecofine.IoC.user;
+package rw.gov.minecofin.IoC.user;
 
 public class UserService {
     private UserRepository userRepository;

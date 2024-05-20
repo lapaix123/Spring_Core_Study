@@ -1,4 +1,4 @@
-package rw.gov.minecofine.IoC.user;
+package rw.gov.minecofin.IoC.user;
 
 public class UserRepository {
     public void saveUser(String userName,String userEmail){

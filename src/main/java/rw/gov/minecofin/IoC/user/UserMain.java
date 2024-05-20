@@ -1,4 +1,4 @@
-package rw.gov.minecofine.IoC.user;
+package rw.gov.minecofin.IoC.user;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
