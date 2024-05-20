@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9a5a19-d5e8-46c6-889f-db8565973e68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rw/gov/minecofine/CRUD/dao/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rw/gov/minecofine/CRUD/model/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rw/gov/minecofine/IoC/user/UserMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/IoC/user/UserMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rw/gov/minecofine/IoC/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/IoC/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rw/gov/minecofine/IoC/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/IoC/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rw/gov/minecofine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rw/gov/minecofine/service/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/userBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/userBean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/gov/minecofin/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,22 +76,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lapaix/Documents/DisasterCareStreamline&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/lapaix/Documents/DisasterCareStreamline",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.88">
     <configuration name="UserMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rw.gov.minecofin.IoC.user.UserMain" />
@@ -217,7 +205,7 @@
       <updated>1715934877110</updated>
       <workItem from="1715934878181" duration="7735000" />
       <workItem from="1716059258191" duration="162000" />
-      <workItem from="1716186532063" duration="6017000" />
+      <workItem from="1716186532063" duration="7830000" />
     </task>
     <task id="LOCAL-00001" summary="adding user IoC configurations">
       <option name="closed" value="true" />
@@ -235,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715942512844</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Before subbmiting">
+      <option name="closed" value="true" />
+      <created>1716192598479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716192598479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +240,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding user IoC configurations" />
     <MESSAGE value="Starting crud operation with xml and hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting crud operation with xml and hibernate" />
+    <MESSAGE value="Before subbmiting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before subbmiting" />
   </component>
 </project>

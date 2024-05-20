@@ -28,16 +28,11 @@
             <version>6.1.7</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-hibernate -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-hibernate</artifactId>
-            <version>1.2.9</version>
-        </dependency>
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.6.12.Final</version>
+            <version>5.6.7.Final</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
         <dependency>
@@ -78,6 +73,11 @@
             <artifactId>javax.persistence-api</artifactId>
             <version>2.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>5.3.18</version>
+        </dependency>
 
         <dependency>
             <groupId>com.mchange</groupId>
@@ -92,10 +92,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>5.3.20</version>
+            <version>6.0.7</version>
         </dependency>
 
     </dependencies>
-
+<build>
+    <finalName>Student_Crud</finalName>
+</build>
 
 </project>

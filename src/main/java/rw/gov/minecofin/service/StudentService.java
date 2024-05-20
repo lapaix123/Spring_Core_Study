@@ -2,10 +2,11 @@ package rw.gov.minecofin.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+
 import rw.gov.minecofin.model.Student;
 import rw.gov.minecofin.repository.StudentRepository;
 
+import javax.transaction.Transactional;
 import java.util.List;
 @Service
 public class StudentService {
